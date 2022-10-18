@@ -692,7 +692,7 @@ footer{
     }
 }
 
-@media(max-width:421px){
+/* @media(max-width:704px){
     .logo{
         font-size: 24px;
     }
@@ -742,7 +742,7 @@ footer{
     .tekst {
         font-size: 12px;
     }
-}
+} */
 
 @media(max-width: 420px){
     .btn:link, .btn:visited {
