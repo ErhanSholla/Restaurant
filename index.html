@@ -14,39 +14,66 @@
     
 </head>
 <body>
-    <header>
+    <header id="section--1" >
         <div class="logo">
             Master<span>Food</span>
         </div>
 
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a href="#" class="nav-links">Home</a></li>
-                <li><a href="#" class="nav-links">About Us</a></li>
-                <li><a href="#" class="nav-links">Explore Foods</a></li>
-                <li><a href="#" class="nav-links">Reviews</a></li>
-                <li><a href="#" class="nav-links">FAQ</a></li>
+                <li><a href="#section--1" class="nav-links">Home</a></li>
+                <li><a href="#section--2" class="nav-links">About Us</a></li>
+                <li><a href="#section--3" class="nav-links">Explore Foods</a></li>
+                <li><a href="#section--4" class="nav-links">Reviews</a></li>
+                <li><a href="#section--5" class="nav-links">FAQ</a></li>
             </ul>
         </nav>
 
-        <button class="btn-mobile-nav" style="height:48px; width:48px;  border:none; background: none; cursor: pointer;">
+        <button class="btn-mobile-nav show-modal " style="height:48px; width:48px;  border:none; background: none; cursor: pointer;">
             <i class="fa-solid fa-bars"></i>
 
         </button>
     </header>
 
 
-    <section class="section-hero">
+    <section class="section-hero section">
         <div class="hero">
 
             <div class="hero-text-box">
                 <h1 class="primary"> Order food from favourite restaurants near you.</h1>
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo. </p>
                 <div class="buttons">
-                    <a href="#" class="btn btn-order">Order Now <i class="fa-solid fa-basket-shopping"></i></a>
-                <a href="#" class="btn btn-lrnm">Learn More <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="#" class="btn btn-order show-modal">Order Now <i class="fa-solid fa-basket-shopping"></i></a>
+                <a href="#section--2" class="btn btn-lrnm">Learn More <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
+            <div class="modal hidden">
+                <button class="close-modal">&times;</button>
+                <div class="modal-image">
+                    <img src="/Images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg" class=" modal-imagess" alt="food-image">
+                </div>
+                <h1>Amritsari Chicken Masala</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+                
+                <div class="basket-modal">
+                    <div class="up">
+                       <span class="minus">-</span>
+                       <span class="num">01</span>
+                       <span class="plus">+</span>
+                    </div>
+                    <a href="#" class="btn btn-order closseModal">Order Now <i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+              </div>
+              <div class="overlay hidden"></div>
+          
             
             <div class="images-hero">
                 <img src="/Images/1.jpg" class="hero-image" alt="Woman Enjoying Food">
@@ -59,7 +86,7 @@
 
     </section>
 
-    <section class="src">
+    <section class="src section">
         <div class="sc1">
             <h1>1287+</h1>
             <p>Savings</p>
@@ -79,7 +106,7 @@
     </section>
     
 
-    <section class="meal grid">
+    <section class="meal grid section" id="section--2">
         <div><img src="/Images/2.jpg" alt="meal" class="first-meal"></div>
         <div class="description">
             <h1 class="titull">We pride ourselves on making real food from the best ingredients.</h1>
@@ -95,33 +122,36 @@
             <p class="check"><i class="fa-solid fa-clipboard-check"style="color: #F46A06 ;"></i> Etiam sed dolor ac diam volutpat.</p>
             <p class="check--last"><i class="fa-solid fa-clipboard-check" style="color: #F46A06 ;"></i> Etiam sed dolor ac diam volutpat.</p>
             <a href="#" class="btn btn-order">Learn More <i class="fa-solid fa-angles-right"></i></a>
+            
         </div>
         <div class="second-photo">
             <img src="/Images/3.jpg" alt="Hamburger" class="second-photo">
         </div>
 
     </section>
-    <div class="bg-image">
+    <div class="bg-image section">
         <h1>When a man's stomach is full it makes no be <br>
             difference whether he is rich or poor.</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio <br>
             finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
         <p><i class="fa-solid fa-circle-play"></i> Watch Our Story</p>        
     </div>
-    <div class="explore">
+    <div class="explore" id="section--3">
         <h1>Explore Our Foods </h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
     </div>
     
-    <section class="menu">
+    <section class="menu section">
         <div class="menu-">
+            
+          
             <div class="first--menu">
            <img src="/Images/unsplash_-F_5g8EEHYE(1).png" class="meal-img" alt="unsplash">
            <div class="menu-content">
             <h1>Rainbow Vegetable Sandwich</h1>
             <p><i class="fa-solid fa-clock"></i> : 15 - 20 Minutes | Serves: 1</p>
             <p> <i class="fa-solid fa-money-bill-1"></i> 10.50 - 11.70 </p>
-            <a href="#" class="btn btn-order">Order Now <i class="fa-solid fa-basket-shopping"></i></a>
+            <button class="btn btn-order info">Order Now <i class="fa-solid fa-basket-shopping"></i></button>
             </div>
             </div>
             <div class="first--menu">
@@ -130,7 +160,7 @@
                  <h1>Rainbow Vegetable Sandwich</h1>
                  <p><i class="fa-solid fa-clock"></i> : 15 - 20 Minutes | Serves: 1</p>
                  <p> <i class="fa-solid fa-money-bill-1"></i> 10.50 - 11.70 </p>
-                 <a href="#" class="btn btn-order">Order Now <i class="fa-solid fa-basket-shopping"></i></a>
+                 <button class="btn btn-order info">Order Now <i class="fa-solid fa-basket-shopping"></i></button>
                  </div>
             </div>
 
@@ -140,40 +170,108 @@
                  <h1>Rainbow Vegetable Sandwich</h1>
                  <p><i class="fa-solid fa-clock"></i> : 15 - 20 Minutes | Serves: 1</p>
                  <p> <i class="fa-solid fa-money-bill-1"></i> 10.50 - 11.70 </p>
-                 <a href="#" class="btn btn-order">Order Now <i class="fa-solid fa-basket-shopping"></i></a>
+                 <button class="btn btn-order info">Order Now <i class="fa-solid fa-basket-shopping"></i></button>
                  </div>
             </div>
 
+        </div >
+
+        
+    <div class="modal--1 hidden">
+        <button class="close-modal1">&times;</button>
+        
+        <div class="modal-image">
+            <img src='/Images/vietnamese-style_loaded_96864_16x9.jpg' class=" modal-imagess" alt="food-image">
         </div>
+        <h1>Vietnamese-style loaded fries</h1>
+        <p>
+            Inspired by Vietnam’s famous banh mi sandwich, a popular street food with hot, spicy and sweet flavours, these fries are loaded with sweet glazed tofu, quick pickled vegetables, mayonnaise and hot sauce. If you have an air fryer, you can use it to cook the fries.
+        </p>
+        <div class="basket-modal">
+            <div class="up">
+               <span class="minus1">-</span>
+               <span class="number1" >01</span>
+               <span class="plus1">+</span>
+            </div>
+            <button class="Orderr">Order Now <i class="fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="overlay1 hidden"></div>
+  
     </section>
 
 
-    <div class="carousel">
-        <img src="/Images/FACES/pexels-daniel-xavier-1239291.jpg" alt="Daniel-Xavier">
-        <blockquote class="thojza">
-            <p class="tekst">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur nulla est quis voluptatem quaerat mollitia excepturi? Earum veniam minus, iusto voluptate ratione aliquam eligendi sit eaque, consequatur quisquam perspiciatis!"</p>
-            <p class="author">Daniel Xavier</p>
-            <p class="job">Senior Product Manager at AXAS FOOD</p>
-        </blockquote>
-        <button class="btnn btn-left">
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
-              </svg>
-        </button>
-        <button class="btnn btn-right">
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-              </svg>
-        </button>
-        <div class="dots">
-            <button class="dot dot--fill">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
-        </div>
-    </div>
 
-    <section class="questions">
+    <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Lorem ipsum dolor sit!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="Images/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+                Lorem ipsum dolor sit
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="Images/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+                Lorem ipsum dolor sit
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="Images/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+    
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+
+
+
+    <section class="questions section" id="section--5">
         <h1>Frequently Asked Questions</h1>
         <div class="answer-parent">
             <div class="answers">
@@ -227,5 +325,6 @@
 
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
